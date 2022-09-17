@@ -1,0 +1,321 @@
+img {
+  margin-left: 20px;
+}
+
+html,body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0;
+  background-color: #000;
+}
+
+
+.nav {
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.content {
+  min-height: calc(100% - 50px);
+}
+
+.links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-left: 20px;
+  
+}
+.links > a {
+  
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.links > a:hover {
+  background-color: #111111;
+}
+
+section {
+  text-align: center;
+  float: left;
+  height: 512px;
+  width: 36vw;
+  margin: 1vw;
+  margin-top: 50px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px gold;
+}
+article {
+  text-align: center;
+  float: left;
+  clear: left;
+  height: 512px;
+  width: 36vw;
+  margin: 1vw;
+  margin-top: 0;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px gold;
+
+  }
+aside {
+  text-align: center;
+  height: 500px;
+  width: 30vw;
+  margin-top: 50px;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+  float: right;
+  background-color: rgb(0, 0, 0);
+  background-image: url(../img/car-detailing.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background: url(../img/car-detailing.jpeg) no-repeat center cover;
+  border: 1px solid;
+  padding: 10px;
+  
+  box-shadow: 5px 10px gold;
+  }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+footer {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color: #000;
+  margin-top: -50px;
+}
+
+footer > .section {
+  width: calc(100% / 3);
+  height: 100%;
+}
+
+footer > .section.mid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > .section.end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+footer > .section.end > h5 {
+  font-size: 20px;
+  bottom: 5px;
+  color: white;
+  margin-right: 15px;
+}
+
+.title-container {
+  height: 750px;
+  width: 100%;
+  background-image: url(../img/Hero_Picture.webp);
+  background-size: stretch;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.banner-section {
+  height: 600px;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+}
+
+.banner-half {
+  height: 100%;
+}
+
+.banner-half.display {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-half.display > a > img {
+  height: 350px;
+  width: auto;
+}
+
+.banner-half.content {
+  width: 65%;
+  background-image: url('https://cdn.dnaindia.com/sites/default/files/styles/full/public/2018/09/02/726118-51725282844365e0250ab.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.opacity-layer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.banner-half.content > ul > li {
+margin-bottom: 30px
+}
+
+.content-inside {
+  padding: 20px;
+  padding-bottom: 50px;
+}
+.footer {
+  height: 50px;
+  margin-top: -50px;
+}
+
+.contact-form {
+  color: #fff;
+}
+
+.info-container {
+  height: 325px;
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.info-container > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.map-container {
+  width: 100%;
+  display: flex;
+  justify-content:center;
+}
+
+.about-header {
+  width: 100%;
+  height: 600px;
+  background-image: url('https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-size: stretch;
+  background-position: center;
+}
+
+.about-title {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.about-container {
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content:center;
+}
+
+.about-container > p {
+  font-size: 30px;
+  width: 500px;
+  text-align: center;
+}
+
+.video-container {
+  width: 100%;
+  height: 800px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-container > h3 {
+  font-size: 30px;
+}
+
+.video-container > p {
+  font-size: 20px;
+}
